@@ -1,0 +1,204 @@
+*{margin: 0;padding: 0;}
+body{font-family: "Microsoft Yahei";}
+#header{
+
+	background-color:#333;
+	height: 60px;
+}
+
+
+#header-logo img{
+	height: 50px;
+	float: left;
+	padding-top: 5px;
+	margin-left: 20px;
+}
+#header-nav ul li a:hover{
+	color: #669;
+}
+#header-nav ul li{
+	float: right;
+}
+#header-nav ul li a{
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	width: 80px;
+	text-decoration: none;
+	color:white;
+    font-size: 5px;
+    font-weight: bold;
+    font-family:  "Microsoft Yahei" ;
+}
+#header-nav{
+	margin-right: 20px
+	margin-top:20px;
+}
+
+#passage-body{
+	background-color: #DCDCDC;
+	margin: 0 auto;
+	padding: 20px;
+}
+.passage{
+	background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: 3px 3px 3px #333;
+	margin-right: 450px;
+}
+.passage h2{
+	text-align: left;
+	font-family:  "Microsoft Yahei" ;
+	font-size: 26px;
+	font-weight: 600;
+}
+.passage h3{
+	text-align: left;
+	font-family:  "Microsoft Yahei" ;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #878586;
+}
+.passage-info{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0px;
+}
+.passage p{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 25px;
+	font-size: 15px;
+	font-weight: normal;
+	text-indent: 2em;
+}
+.passage ul li{
+	list-style-type: none;
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+.picture{
+	border: solid 1px #DCDCDC;
+	margin: 20px;
+	width: 240px;
+	display: inline;
+}
+.picture p{
+	text-align: center;
+}
+.picture img{
+	width: 200px;
+	height: 130px;
+	margin: 20px;
+}
+
+.passage ol{
+	margin-left: 50px;
+}
+.passage ol li{
+	text-align: left;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+.passage table{
+	border: 1px solid white;
+	width: 100%;
+	border-spacing: 0;
+}
+.passage tr th{
+	text-align: left;
+	background-color: black;
+	border: 1px solid #DCDCDC;
+	color: white;
+}
+.passage tr td{
+	border:1px solid #DCDCDC;
+}
+.tablesum{
+	background-color: #DCDCDC;
+	border:1px solid #CCC;
+}
+#sidebar{
+	padding: 20px;
+	background-color: #FFF;
+	float: right;
+	width: 350px;
+	margin-right: 20px;
+
+    box-shadow: 3px 3px 3px #333;
+}
+
+
+
+
+#sidebar h2{
+	padding-left: 20px;
+	text-align: left;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+	border-left: 3px solid #000;
+}
+#sidebar div{
+	font-size: 14px;
+	margin: 15px 0;
+}
+.tips{
+    float: left;
+    text-align: right;
+    width: 35%;
+    padding-right: 15px;
+}
+
+.inp input[type="submit"]{
+	width: 100%;
+	background-color: #3355D0;
+	border:none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 1px#9E3F3F;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+	font-weight: bold;
+}
+.inp input[type="submit"]:hover{
+	background-color: #0063dc;
+}
+
+#sidebar div textarea{
+	width: 50%;
+	color: black;
+	height: 100px;
+	font-size: 15px
+}
+#sidebar div p{
+	margin-left: 34%;
+
+	font-size: 12px;
+	color: #aaa;
+}
+#footer{
+	background-color: black;
+	height: 40px;
+	padding: 20px;
+	
+}
+#footer p{
+	color: white;
+	line-height: 30px;
+	font-size: 10px;
+	text-align: center;
+}
